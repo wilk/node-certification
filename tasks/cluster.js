@@ -67,6 +67,7 @@ var cluster = require('cluster'),
             cluster.on('fork', me.onClusterFork);
             cluster.on('online', me.onClusterOnline);
             cluster.on('setup', me.onClusterSetup);
+            cluster.on('listening', me.onClusterListening);
 
             // This let to move a worker code from the main master file to a different one (the worker file)
             console.log(me.clusterPrefix + 'setup Master to fork workers in an external file');
