@@ -22,7 +22,11 @@ var events = require('events'),
         var o1 = new Observed();
 
         o1.on('message', function (text) {
-            console.log('A new text message is arrived: ' + text);
+            console.log('Listener#1: A new text message is arrived: ' + text);
+        });
+
+        o1.on('message', function (text) {
+            console.log('Listener#2: A new text message is arrived: ' + text);
         });
 
         o1.on('json', function (object) {
@@ -34,6 +38,9 @@ var events = require('events'),
         o1.json({
             hello: 'world'
         });
+
+        console.log('Listeners attached to the message event: ' + EventEmitter.listenerCount(o1, 'message'));
+        console.log('Listeners attached to the json event: ' + EventEmitter.listenerCount(o1, 'json'));
     };
 })(EventsTask);
 
