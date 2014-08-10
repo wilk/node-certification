@@ -42,9 +42,17 @@ var stream = require('stream'),
 
     me.WritebleStream = function (cfg) {
         Writable.call(this, cfg);
+
+        this._file = cfg.file;
     };
 
     util.inherits(me.WritebleStream, Writable);
+
+    me.WritebleStream.prototype._write = function (chunk, encoding, callback) {
+        console.log(typeof chunk);
+
+        fs.writeFile(this._file, chunk, callback);
+    };
 
     me.DuplexStream = function (cfg) {
         Duplex.call(this, cfg);
@@ -83,6 +91,19 @@ var stream = require('stream'),
                 console.log('');
                 console.log(readData);
                 console.log('');
+
+                var ws = new me.WritebleStream({
+                    file: 'tasks/data/writeable.text'
+                });
+
+                ws.write(readData);
+                ws.end('\n\nDONE');
+
+                ws.on('finish', function () {
+                    console.log('');
+                    console.log('WriteableStream: written all data!');
+                    console.log('');
+                });
             });
         });
 
