@@ -20,7 +20,7 @@ function onClusterExit (worker, code, signal) {
 
 function onClusterFork (worker) {
     console.log(clusterPrefix + 'a new worker has been forked with PID ' + worker.process.pid);
-};
+}
 
 function onClusterOnline (worker) {
     console.log(clusterPrefix + 'a new worker is online with PID ' + worker.process.pid);
@@ -51,7 +51,7 @@ function onClusterMessage (msg) {
         console.log(clusterPrefix + 'incoming message from worker:');
         console.log('Cluster >> ' + msg);
     }
-};
+}
 
  if (cluster.isMaster) {
     cluster.on('disconnect', onClusterDisconnect);

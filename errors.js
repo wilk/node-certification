@@ -19,7 +19,7 @@ catch (err) {
 try {
     var thrower = function () {
         //throw new Error('Uncaught error');
-    }
+    };
 
     process.nextTick(thrower)
 }
@@ -30,7 +30,7 @@ catch (err) {
 try {
     var thrower = function () {
         throw new Error('Caught error#3');
-    }
+    };
 
     process.nextTick(function () {
         try {
