@@ -3,7 +3,7 @@ node-certification
 
 SCND Strongloop Certification Exam work out
 
-# Name of section
+# Troubleshooting
 
 It is important for Node developers to have an understanding of what development tools are at their disposal and how to leverage them. For the purposes of the exam, you should have a general understanding of the following tools:
 
@@ -16,7 +16,7 @@ It is important for Node developers to have an understanding of what development
 * ./repl.js
 
 ## License
-[Read the LICENSE file (MIT, anyway)](../../LICENSE)
+[Read the LICENSE file (MIT, anyway)](./../LICENSE)
 
 ## Reference
 [http://strongloop.com/node-js/certification/scnd-study-guide/](http://strongloop.com/node-js/certification/scnd-study-guide/)

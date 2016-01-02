@@ -3,7 +3,7 @@ node-certification
 
 SCND Strongloop Certification Exam work out
 
-# Name of section
+# Sockets
 
 [WebSockets](http://strongloop.com/strongblog/real-time-engines-in-node-js/) in Node commonly manifest themselves when developers make use of the [socket.io](http://socket.io) framework.
 [WebSockets](http://strongloop.com/strongblog/real-time-engines-in-node-js/) is a protocol providing full-duplex communications channels over a single TCP connection. 

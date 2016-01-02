@@ -3,7 +3,7 @@ node-certification
 
 SCND Strongloop Certification Exam work out
 
-# Name of section
+# Error Handling
 
 Error handling in Node can be tricky so it’s import to understand how to do proper error handling. 
 

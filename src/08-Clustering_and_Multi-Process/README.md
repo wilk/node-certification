@@ -3,7 +3,7 @@ node-certification
 
 SCND Strongloop Certification Exam work out
 
-# Name of section
+# Clustering and MultiProcess
 
 Before deploying a Node app, it’s important to understand what your options are for scalability not just around performance, but also for uptime. 
 

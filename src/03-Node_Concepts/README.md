@@ -3,7 +3,7 @@ node-certification
 
 SCND Strongloop Certification Exam work out
 
-# Name of section
+# Node Concepts
 
 The exam will test your knowledge of these core Node concepts:
 
