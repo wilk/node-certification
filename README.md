@@ -5,9 +5,10 @@ SCND Strongloop Certification Exam work out
 
 ## Info about the exam
 
-  - [http://strongloop.com/node-js/certification/](http://strongloop.com/node-js/certification/)
-  - [http://strongloop.com/node-js/certification/faq/](http://strongloop.com/node-js/certification/faq/)
-  - [http://strongloop.com/node-js/certification/scnd-study-guide/](http://strongloop.com/node-js/certification/scnd-study-guide/)
+  - [SCND](http://strongloop.com/node-js/certification)
+  - [SCND FAQ](http://strongloop.com/node-js/certification/faq)
+  - [SCND Study Guide](http://strongloop.com/node-js/certification/scnd-study-guide)
+  - [Additional Resources](https://github.com/rockbot/node-for-beginners)
 
 ## About this repo
 
