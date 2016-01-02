@@ -1,20 +1,30 @@
 {
   "name": "node-certification",
-  "version": "0.0.0",
-  "description": "Node certification program",
+  "version": "0.0.1",
+  "description": "SCND Certification Program",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vincenzo (Wilk) Ferrari <wilk3ert@gmail.com>",
+  "contributors": [
+    {
+      "name": "Manuel E. de Paz Carmona",
+      "email": "Pelirrojo@users.noreply.github.com"
+    }
+  ],
   "license": "MIT",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/wilk/node_certification"
+    "type": "git",
+    "url": "https://github.com/wilk/node_certification"
   },
   "devDependencies": {
     "bunyan": "^1.0.0",
     "express": "^4.8.2",
     "express-bunyan-logger": "^0.2.2"
+  },
+  "dependencies": {
+    "node-menu": "0.0.9"
   }
 }
