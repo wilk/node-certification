@@ -1,7 +1,7 @@
 node-certification
 ==================
 
-Strongloop Certification Exam work out
+SCND Strongloop Certification Exam work out
 
 ## Info about the exam
 
@@ -30,6 +30,7 @@ And watch the output.
 
 ## Contribute
 I know that could be some error so if you find any please provide to fix them with a pull request.
+To contrib use [pull requests](https://help.github.com/articles/using-pull-requests/).
 
 ## License
-Read the LICENSE file (MIT, anyway)
+[Read the LICENSE file (MIT, anyway)](../../LICENSE)
