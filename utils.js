@@ -35,8 +35,10 @@ module.exports = {
     callback: function (err) {
 
         if (err) {
-            throw err;
+            console.log(err);
             console.log('Error running script');
+            throw err;
+
         } else {
             console.log('Script successfully ended - press enter go back to menu');
         }
