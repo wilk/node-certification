@@ -18,7 +18,7 @@ All the exercises are organized by folders for each of the concepts covered in t
 To try it out, just launch it with node in the following way:
 
 ```bash
-$ node src/08-Clustering_and_Multi-Process/buffers
+$ node src/03-Node_Concepts/buffers.js
 ```
 
 or use the interactive menu:
