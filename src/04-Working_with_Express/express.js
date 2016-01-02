@@ -3,7 +3,7 @@ var express = require('express'),
     logger = require('express-bunyan-logger'),
     fs = require('fs'),
     app = express(),
-    repl = require('./repl');
+    repl = require('./../10-Troubleshooting/repl');
 
 var users = ['foo', 'bar', 'foobar'];
 router.param('user', function (req, res, next, id) {
