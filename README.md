@@ -27,7 +27,7 @@ or use the interactive menu:
 $ npm start
 ```
 
-And watch the output.
+And watch the output and later open files to study the code :)
 
 ## Contribute
 I know that could be some error so if you find any please provide to fix them with a pull request.
