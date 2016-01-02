@@ -1,6 +1,7 @@
 var io = require('socket.io')(12345);
 
 io.on('connection', function (socket) {
+
     console.log('A socket has connected');
 
     socket.on('ping', function (data) {
@@ -28,4 +29,12 @@ io.on('connection', function (socket) {
     socket.on('disconnect', function () {
         console.log('SOCKET DISCONNECTED');
     });
+
+   setInterval(function() { 
+	console.log("Broadcasting time"); 
+	socket.broadcast.emit('message', new Date());
+   }, 3000);
+
 });
+
+console.log('WSS Server listening on 12345');
