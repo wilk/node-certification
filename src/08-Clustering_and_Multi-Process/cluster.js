@@ -64,7 +64,7 @@ function onClusterMessage (msg) {
     // This let to move a worker code from the main master file to a different one (the worker file)
     console.log(clusterPrefix + 'setup Master to fork workers in an external file');
     cluster.setupMaster({
-        exec: 'workers/worker1.js',
+        exec: __dirname  + '/workers/worker1.js',
         args: ['--use', 'https'],
         silent: false
     });

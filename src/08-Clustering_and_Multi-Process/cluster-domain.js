@@ -2,7 +2,7 @@ var cluster = require('cluster'),
     cpus = require('os').cpus().length;
 
 cluster.setupMaster({
-    exec: 'workers/domain-worker.js'
+    exec: __dirname  + '/workers/domain-worker.js'
 });
 
 for (var i = 0; i < cpus; i++) cluster.fork();
