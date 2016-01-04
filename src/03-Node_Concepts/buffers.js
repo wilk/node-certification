@@ -25,4 +25,3 @@ var aBuf = new Buffer('Dude', 'utf-8'),
 console.log('Checking if aBuff its equal to bBuff');
 console.log(aBuf.toString() === bBuf.toString());
 
-process.exit(0);
