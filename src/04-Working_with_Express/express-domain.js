@@ -38,3 +38,4 @@ app.use(function (err, req, res, next) {
 });
 
 var server = app.listen(12345);
+console.log('Express App listening on 12345');
